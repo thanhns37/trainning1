@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.TestOnclickBtn(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isValidateDiemKha">
+            </PersistentString>
+            <PersistentString
+               value = "(countMieng) + (countGiuaKy * 2) + (countCuoiKy * 3)">
+            </PersistentString>
+            <PersistentString
+               value = "tbMieng(pointTf.text!) + tbGiuaKy(midPointTf.text!) + tbCuoiKy(lastPointTf.text!)">
+            </PersistentString>
+            <PersistentString
+               value = "tong/count">
+            </PersistentString>
+            <PersistentString
+               value = "isValidateDiemGioi">
+            </PersistentString>
+            <PersistentString
+               value = "point">
+            </PersistentString>
+            <PersistentString
+               value = "tbMieng(pointTf.text!) + tbGiuaKy(midPointTf.text!) + tbCuoiKy(lastPointTf.text!) / (countMieng) + (countGiuaKy * 2) + (countCuoiKy * 3)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.convertListFloat(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Float(String(element))!">
+            </PersistentString>
+            <PersistentString
+               value = "replaced.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
