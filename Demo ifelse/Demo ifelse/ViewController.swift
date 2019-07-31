@@ -72,7 +72,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             rankLb.text = "Học Lực Giỏi"
         }
         
-        if isValidateDiemKha {
+        if isValidateDiemKha && !isValidateDiemGioi {
             rankLb.text = "Học Lực Khá"
         }
         
@@ -128,7 +128,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             return (false, "Điểm cuối kỳ không hợp lệ")
         }
         
-        if lastPointTf.text!.isEmpty {
+        if !lastPointTf.text!.isEmpty {
             for item in replaced3 {
                 if Double(item)! > 10 {
                     return (false, "Điểm cuối kỳ không hợp lệ")
@@ -144,17 +144,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
         countMieng = 0
         var tong: Double = 0.0
         let replaced = pointTf.text!.components(separatedBy: ",")
-        for element in replaced {
-            tong += Double(element)!
-            countMieng += 1
-            
-            if Double(element)! > 7 && countMieng > 0 {
-                isValidateDiemGioi = true
-            } else {
-                isValidateDiemGioi = false
+        if !pointTf.text!.isEmpty {
+            for element in replaced {
+                tong += Double(element)!
+                countMieng += 1
+                
+                if Double(element)! > 7 && countMieng > 0 {
+                    isValidateDiemGioi = true
+                } else {
+                    isValidateDiemGioi = false
+                }
             }
-            
         }
+        
         
         return tong
     }

@@ -3,10 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ViewController.tbGiuaKy():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "countGiuaKy">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.TestOnclickBtn(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "isValidateDiemKha">
+               value = "point">
             </PersistentString>
             <PersistentString
                value = "(countMieng) + (countGiuaKy * 2) + (countCuoiKy * 3)">
@@ -18,13 +26,13 @@
                value = "tong/count">
             </PersistentString>
             <PersistentString
-               value = "isValidateDiemGioi">
-            </PersistentString>
-            <PersistentString
-               value = "point">
-            </PersistentString>
-            <PersistentString
                value = "tbMieng(pointTf.text!) + tbGiuaKy(midPointTf.text!) + tbCuoiKy(lastPointTf.text!) / (countMieng) + (countGiuaKy * 2) + (countCuoiKy * 3)">
+            </PersistentString>
+            <PersistentString
+               value = "isValidateDiemKha">
+            </PersistentString>
+            <PersistentString
+               value = "isValidateDiemGioi">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
